@@ -1,0 +1,29 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <div class="text-center">
+        <img class="logo" alt="Star Wars Logo" src="assets/img/star_wars_logo.svg">
+        <h4 class="title py-4">The Star Wars App</h4>
+        <nav class="nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/people">People</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/starships">Starships</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/planets">Planets</a>
+          </li>
+        </nav>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-12">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+  
+</div>
